@@ -1,0 +1,96 @@
+/* to-do list */
+.todo-list-item {
+}
+
+/* menu-item */
+.menu-item {
+}
+
+/* nav-item */
+.nav-item {
+}
+
+/*  */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6fd;
+}
+
+.container {
+  margin: auto;
+  /* color: #bd30af; */
+  background-color: #fffeff;
+}
+
+.margin-left {
+  margin-left: 250px;
+}
+
+/* header */
+.header {
+  /* height: 100px; */
+  /* background-color: #6a70c2; */
+}
+
+.taskbar {
+  height: 50px;
+  /* background-color: bisque; */
+}
+
+ul {
+  float: right;
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  font-size: xx-large;
+  margin-left: 20px;
+}
+
+/* sidebar */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fffeff;
+  float: left;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+}
+
+.workly {
+  color: #170F69;
+  font-size: large;
+  height: 50px;
+  text-align: center;
+}
+
+.new-task {
+  border-radius: 0px 40px 40px 40px;
+  background-color: #F0EEFC;
+  color: #170F69;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+strong{
+  margin: auto;
+}
+
+/* content */
+.content {
+}
