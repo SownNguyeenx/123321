@@ -1,14 +1,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WORKLY</title>
 
-    <link rel="stylesheet" href="train.css">
-    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="train.css" />
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
 
 <body>
     <div class="wrapper">
@@ -16,19 +18,19 @@
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                    <a class="nav-link circle" data-widget="fullscreen" href="#" role="button">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#"
+                    <a class="nav-link circle" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#"
                         role="button">
                         <i class="fas fa-bell"></i>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#">
-                        <img src="image/user1-128x128.jpg" class="img-circle elevation-2" alt="UserImg">
+                        <img src="image/user1-128x128.jpg" class="img-circle elevation-2" alt="UserImg" />
                         Hat's & Thing
                         <i class="fas fa-angle-left"></i>
                     </a>
@@ -57,29 +59,29 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="#" class="brand-link">
-                <img src="image/workly.jpeg" alt="1" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="image/workly.jpeg" alt="1" class="brand-image img-circle elevation-3" style="opacity: 0.8" />
                 <span class="brand-text font-weight-light"><strong>Workly</strong></span>
             </a>
 
             <!-- Sidebar -->
             <div class="sidebar">
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex new-task">
-                    <p>+ New Task</p>
-                </div>
+                <a href="#">
+                    <div class="user-panel mt-3 pb-3 mb-3 d-flex new-task">
+                        <p>+ New Task</p>
+                    </div>
+                </a>
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
-                        <li class="nav-item">
+                        <li class="nav-item menu">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-home"></i>
-                                <p>
-                                    Home
-                                </p>
+                                <p>Home</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item menu">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-tasks"></i>
                                 <p>
@@ -88,15 +90,13 @@
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item menu">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
-                                <p>
-                                    Task Catalog
-                                </p>
+                                <p>Task Catalog</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item menu">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>
@@ -113,20 +113,75 @@
         </aside>
 
         <div class="content-wrapper">
+            <div class="current">CURRENT
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="card">
+                <span class="card-item"><i class="fas fa-list"></i></span>
+                <span class="card-item">
+                    <div>Task</div>
+                    <div>Custom Task</div>
+                </span>
+                <span class="card-item">
+                    <div>$99.00</div>
+                    <div>Task price</div>
+                    <div>Delivery: within 2 days</div>
+                </span>
+                <span class="card-item">
+                    <img src="image/user1-128x128.jpg" class="img-circle elevation-2" alt="UserImg" />
+                    Username
+                </span>
+                <span class="card-item">
+                    <div class="status">
+                        <i class="fas fa-circle"></i>
+                        Verify
+                    </div>
+                </span>
+                <span class="card-item"><i class="fas fa-comment"></i></span>
+                <span class="card-item"><i class="fas fa-ellipsis-h"></i></span>
+            </div>
+            <div class="up-next">UP NEXT</div>
             <div class="card">
                 <span class="card-item"><i class="fas fa-list"></i></span>
                 <span class="card-item">Task
                     <div>Custom Task</div>
                 </span>
                 <span class="card-item">$199.99</span>
-                <span class="card-item">Username</span>
-                <span class="card-item">Status</span>
+                <span class="card-item">
+                    <img src="image/user1-128x128.jpg" class="img-circle elevation-2" alt="UserImg" />
+                    Username
+                </span>
+                <span class="card-item">
+                    <div class="status">
+                        <i class="fas fa-circle"></i>
+                        Verify
+                    </div>
+                </span>
+                <span class="card-item"><i class="fas fa-comment"></i></span>
+                <span class="card-item"><i class="fas fa-ellipsis-h"></i></span>
+            </div>
+
+            <div class="card">
+                <span class="card-item"><i class="fas fa-list"></i></span>
+                <span class="card-item">Task
+                    <div>Custom Task</div>
+                </span>
+                <span class="card-item">$199.99</span>
+                <span class="card-item">
+                    <img src="image/user1-128x128.jpg" class="img-circle elevation-2" alt="UserImg" />
+                    Username
+                </span>
+                <span class="card-item">
+                    <div class="status">
+                        <i class="fas fa-circle"></i>
+                        Verify
+                    </div>
+                </span>
                 <span class="card-item"><i class="fas fa-comment"></i></span>
                 <span class="card-item"><i class="fas fa-ellipsis-h"></i></span>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
